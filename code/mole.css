@@ -5,7 +5,6 @@ body{
 
     background: url(../img/20483.jpg);
     background-size: cover;
-    background-repeat: repeat;
 }
 
 #board{
@@ -26,12 +25,19 @@ body{
 #board div{
 
     width: 180px;
-    height: 180px   ;
+    height: 180px;
 }
 
 #board div img{
     width: 100px;
     height: 100px;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+
 }
 
 
